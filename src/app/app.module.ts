@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
 import { FormsModule } from '@angular/forms';
+import { SearchRequestService} from './search-request.service';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -11,7 +12,8 @@ import { SearchFormComponent } from './search-form/search-form.component';
 import { UserInfoComponent } from './user-info/user-info.component';
 import { RouterModule } from '@angular/router';
 import { RoutingModule } from './app-routing.module';
-import { SearchComponent } from './search/search.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 
 @NgModule({
@@ -21,7 +23,7 @@ import { SearchComponent } from './search/search.component';
     RepositoriesComponent,
     SearchFormComponent,
     UserInfoComponent,
-    SearchComponent
+    
   ],
   imports: [
     BrowserModule,
@@ -29,10 +31,12 @@ import { SearchComponent } from './search/search.component';
     RouterModule,
     FormsModule,
     NgProgressModule.forRoot(),
-    NgProgressHttpClientModule
+    NgProgressHttpClientModule,
+    HttpClientModule,
+  
 
   ],
-  providers: [],
+  providers: [SearchRequestService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
