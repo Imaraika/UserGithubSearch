@@ -17,10 +17,13 @@ The application allows users to do the following:
    - following numbers 
    -followers
    -number of repositories
+ - and navigate from view to another view 
+ - click on the link to be able to see the user on github itself
+   
+## Development server
 
-## Build
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ## Running unit tests
 
