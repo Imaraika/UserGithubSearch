@@ -7,7 +7,7 @@ import {RepositoriesComponent} from './repositories/repositories.component';
 
 
 const routes: Routes = [
-    {path: 'users', component: SearchComponent},
+    {path: 'users', component: SearchFormComponent},
     {path: 'repository', component: RepositoriesComponent},
     {path: '', redirectTo: '/users', pathMatch: 'full'},
 
