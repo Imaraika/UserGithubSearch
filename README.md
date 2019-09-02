@@ -55,4 +55,7 @@ Pull requests are encouraged.
 
 ## Contact Details
 
-You can contact me at inange2013@gmail.com
+You can contact me at inange2013@gmail.com.
+
+## License
+Copyright (c) 2019 Ange Ingabire
