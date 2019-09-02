@@ -33,10 +33,17 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 'run npm install command to remove json errors'
 'Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.'
 
+## Technology Used
 
-## Running end-to-end tests
+Angular JS
+HTML
+CSS
+Bootstrap
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
 
 ## Further help
 
