@@ -11,6 +11,7 @@ import { SearchFormComponent } from './search-form/search-form.component';
 import { UserInfoComponent } from './user-info/user-info.component';
 import { RouterModule } from '@angular/router';
 import { RoutingModule } from './app-routing.module';
+import { SearchComponent } from './search/search.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { RoutingModule } from './app-routing.module';
     NavbarComponent,
     RepositoriesComponent,
     SearchFormComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
