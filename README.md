@@ -25,9 +25,14 @@ The application allows users to do the following:
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 
-## Running unit tests
+## Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ Cloning
+'Make sure you have all the Requirements or running angular apps installed such as node,npm, tsc and watchman'
+'Clone the project into your machine from https://github.com/Imaraika/UserGithubSearch.git'
+'run npm install command to remove json errors'
+'Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.'
+
 
 ## Running end-to-end tests
 
