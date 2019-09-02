@@ -16,7 +16,7 @@ export class UserInfoComponent implements OnInit {
 
   users: User ;
   repository: Repository;
-  public searchRepo: string;
+  // public searchRepo: string;
 
 
   findUser(username) {
@@ -36,9 +36,9 @@ ngOnInit() {
 }
 
 
-  searchRepos() {
-      this.searchRepo = '';
+  // searchRepos() {
+  //     this.searchRepo = '';
      
 
-  }
+  // }
 }
