@@ -19,7 +19,7 @@ input[type=submit] {
 
 
 button {
-   background-color: #056b5b;
+   background-color:blue;
    color: white;
    padding: 14px 20px;
    margin: 8px 0;
@@ -32,7 +32,7 @@ button {
 
 
 form {
-   background-color: #f1f1f1;
+   background-color: rosybrown;
    padding: 20px;
    width: 100vh;
     /*height: 100%; */

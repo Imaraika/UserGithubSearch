@@ -20,7 +20,7 @@ export class SearchFormComponent implements OnInit {
         data.reset();
     }
 
-    public searchMe = 'Imaraika';
+    public searchMe = '';
     public githubUser: string;
   
     users: User ;
