@@ -51,4 +51,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Contributions
 
-Pull requests are encouraged
+Pull requests are encouraged.
+
+## Contact Details
+
+You can contact me at inange2013@gmail.com
