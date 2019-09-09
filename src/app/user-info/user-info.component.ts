@@ -14,9 +14,9 @@ export class UserInfoComponent implements OnInit {
   public searchMe = 'Imaraika';
   public githubUser: string;
 
+
   users: User ;
   repository: Repository;
-  // public searchRepo: string;
 
 
   findUser(username) {
@@ -34,11 +34,4 @@ ngOnInit() {
     this.userRepos.gitUserRepos(this.searchMe);
     console.log(this.userRepos);
 }
-
-
-  // searchRepos() {
-  //     this.searchRepo = '';
-     
-
-  // }
 }

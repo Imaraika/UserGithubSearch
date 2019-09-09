@@ -11,24 +11,20 @@
       <div class="table">
         <table class="table">
           <tbody>
-           <tr *ngFor=" let repository of gitRepoRequest.searchRepo" >
-            <td>
-              <h4>
-                <a style="text-align: center" href="{{repository.html_url}} " >{{repository.name}}</a>
-              </h4>
-              <p > Repository Owner:
+            <tr *ngFor=" let repository of gitRepoRequest.searchRepo" >
+              <td>
+                <p>Repository Owner:
                 <a href="{{repository.owner.html_url}}">{{repository.owner.login}}</a>
-              </p>
-              <p>Date Created : {{repository.created_at|date}}</p>
-              <p>Description : {{repository.description}}</p>
-            </td>
-          </tr>
+                </p>
+                <p>Date Created : {{repository.created_at|date}}</p>
+                <p>Description : {{repository.description}}</p>
+              </td>
+            </tr>
           </tbody>
         </table>
-        <hr>
+      <hr>
       </div>
     </div>
   </div>
-
 </div>
 </div>
