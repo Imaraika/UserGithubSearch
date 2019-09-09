@@ -13,6 +13,7 @@ import { UserInfoComponent } from './user-info/user-info.component';
 import { RouterModule } from '@angular/router';
 import { RoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
+import { UpperCasePipe } from './upper-case.pipe';
 
 
 
@@ -23,6 +24,7 @@ import { HttpClientModule } from '@angular/common/http';
     RepositoriesComponent,
     SearchFormComponent,
     UserInfoComponent,
+    UpperCasePipe
     
   ],
   imports: [
