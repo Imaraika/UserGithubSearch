@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  miApi:'8fc6210b6cc4822a8956b84ba0ccf3e19f9be5ae'
+  miApi:'34067f4554fc74d20a536e79a29b06799fe622de'
 };
 
 /*
